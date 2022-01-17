@@ -9,6 +9,8 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="default.css">
     <link rel="shortcut icon" href="favicon.ico">
     <link id="theme-style" rel="stylesheet" type="text/css" href="">
@@ -29,7 +31,11 @@
                         <div id="dot-3" class="browser-dot"></div>
                     </div>
                     <ul id="navigation">
+                        <li><a href="#contact">Contact</a></li>
+                        <!--
+                        todo: uncomment when switch to actual contact form.
                         <li><a href="#contact-form">Contact</a></li>
+                        -->
                     </ul>
                 </div>
 
@@ -52,7 +58,7 @@
                     <div id="preview">
                             <div id="corner-tl" class="corner"></div>
                             <div id="corner-tr" class="corner"></div>
-                            <h3>What I Do</h3>
+                            <h3>~$ whois patrick</h3>
                             <p>I'm a recent graduate from Columbus State University, with a BS in Computer Science.</p>
                             <div id="corner-bl" class="corner"></div>
                             <div id="corner-br" class="corner"></div>
@@ -70,9 +76,9 @@
                 <div class="about-me">
                     <h4>More About Me</h4>
 
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>I'm a motivated programmer that enjoys learning how to use new tools to improve my work.</p>
 
-                    <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Currently, I'm seeking a position to start my career with. When I'm not working, I enjoy playing and developing video games. This website acts as a portfolio for some of my personal and professional projects.</p>
 
                     <hr>
 
@@ -101,9 +107,10 @@
 
                 <div class="social-links">
                     <h4>Links</h4>
-                    <a target="_blank" href="https://github.com/OnionKnight8">GitHub</a></p>
-                    <a target="_blank" href="https://linkedin.com/in/dooley-patrick">LinkedIn</a></p>
-                    <a target="_blank" href="https://twitter.com/OnionKnight_8">Twitter</a></p>
+                    <p><i class="fab fa-github"></i><a target="_blank" href="https://github.com/OnionKnight8"> GitHub</a></p>
+                    <p><i class="fab fa-linkedin"></i><a target="_blank" href="https://linkedin.com/in/dooley-patrick"> LinkedIn</a></p>
+                    <p><i class="fab fa-itch-io"></i><a target="_blank" href="https://onionknight.itch.io"> Itch.io</a></p>
+                    <p><i class="fab fa-twitter"></i><a target="_blank" href="https://twitter.com/OnionKnight_8"> Twitter</a></p>
                 </div>
             </div>
         </div>
@@ -120,9 +127,9 @@
                         <div class="post-preview">
                             <h6 class="post-title">S.A.L.T. X</h6>
                             <p class="post-intro">A sidescrolling run-and-gun game made over the course of several days for the "Stop Waiting for Godot" game jam.</p>
-                            <a target="_blank" href="https://onionknight.itch.io/salt-x">View on Itch.io</a>
+                            <i class="fab fa-itch-io"></i><a target="_blank" href="https://onionknight.itch.io/salt-x"> View on Itch.io</a>
                             <br>
-                            <a target="_blank" href="https://github.com/JamesEllerbee/SALT2">View on GitHub</a>
+                            <i class="fab fa-github"></i><a target="_blank" href="https://github.com/JamesEllerbee/SALT2"> View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +140,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">Ambient Noise App</h6>
                             <p class="post-intro">Android application that allows users to combine various ambient soundscapes, save favorite combinations, and set a timer to stop playback.</p>
-                            <a target="_blank" href="https://github.com/OnionKnight8/Ambient_Noise_App">View on GitHub</a>
+                            <i class="fab fa-github"></i><a target="_blank" href="https://github.com/OnionKnight8/Ambient_Noise_App"> View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -144,7 +151,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">ATM Website</h6>
                             <p class="post-intro">A simulated ATM control website developed using Django. Allows users to create an account, deposit and wthdraw money, and other common ATM functions.</p>
-                            <a target="_blank" href="https://github.com/OnionKnight8/GroupProject2">View on GitHub</a>
+                            <i class="fab fa-github"></i><a target="_blank" href="https://github.com/OnionKnight8/GroupProject2"> View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -155,7 +162,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">The Dungeon</h6>
                             <p class="post-intro">A survival horror text-based adventure game made in Java to demonstrate knowledge of various different Object Oriented Design patterns.</p>
-                            <a target="_blank" href="https://github.com/OnionKnight8/Text-Based-Adventure-Game-Object-Oriented-Design">View on GitHub</a>
+                            <i class="fab fa-github"></i><a target="_blank" href="https://github.com/OnionKnight8/Text-Based-Adventure-Game-Object-Oriented-Design"> View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -166,11 +173,12 @@
     <section class="s2">
         <div class="main-container">
             <h3 style="text-align: center;">Contact Me</h3>
-            <p style="text-align: center;">
-            <a target="_blank" href="mailto:patrick.l.dooley@gmail.com">patrick.l.dooley@gmail.com</a></p>
+            <p id="contact">
+            <p style="text-align: center;"><i class="fas fa-envelope"></i><a target="_blank" href="mailto:patrick.l.dooley@gmail.com"> patrick.l.dooley@gmail.com</a></p>
             </p>
 
             <!--
+            todo: fix actual contact form
             <form id="contact-form">
                 <label>Name</label>
                 <input class="input-field" type="text" name="name">
